@@ -3,6 +3,7 @@
 const express = require('express');
 const router = express.Router();
 const Pusher = require('pusher');
+require('dotenv').config();
 
 var pusher = new Pusher({
   appId: '944579',
