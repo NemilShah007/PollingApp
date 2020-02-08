@@ -6,9 +6,9 @@ const Pusher = require('pusher');
 require('dotenv').config();
 
 var pusher = new Pusher({
-  appId: '944579',
-  key: '22606a69db895ee7e54d',
-  secret: 'bfa43df0c91e969ff864',
+  appId: process.env.APPID,
+  key: process.env.KEY,
+  secret: process.env.SECRET,
   cluster: 'ap2',
   encrypted: true
 });

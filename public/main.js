@@ -47,7 +47,7 @@ if(chartContainer){
   // Enable pusher logging - don't include this in production
   Pusher.logToConsole = true;
 
-  var pusher = new Pusher('22606a69db895ee7e54d', {
+  var pusher = new Pusher("22606a69db895ee7e54d", {
       cluster: 'ap2',
       forceTLS: true
   });
